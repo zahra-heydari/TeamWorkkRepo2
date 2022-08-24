@@ -8,21 +8,22 @@
 </head>
 <body>
     <header>
-        <img scr="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSED2gH1gMwIkzTHTf5cyoZLbROJX6DhE-pUg&usqp=CAU" alt="logo"><br><br>
+        <img src="/images/resturant_logo.png" alt="logo" /><br><br>
+        
         <nav>
             <ul>
                 <li>
-                    <a href="Login.html">Login/Sign Up</a>
+                    <a href="login.html">Login/Sign Up</a>
                     <br><br>
                 
                 
-                    <a href="Credit-cart.html">Cart</a>
+                    <a href="factor.html">Cart</a>
                     <br><br>
                 
-                    <a href="#">About Us</a>
+                    <a href="#AboutUS">About Us</a>
                     <br><br>
                 
-                    <a href="Employment.html">Employment</a>
+                    <a href="employment.html">Employment</a>
                     <br><br>
 
                     <a href="index.html">Home</a>
@@ -70,5 +71,49 @@
             </table>
         </section>
         </main>
+        <br><br>
+        <form action="login">
+            <p><strong>Login:</strong></p>
+            <input type="text" id="username" placeholder="Username" required>
+            <lable for="username">Please enter your username:</lable>
+            <br><br>
+            <input type="password" id="password" placeholder="Your password" required>
+            <lable for="password">Please enter your password:</lable>
+            <br><br>
+            <input type="submit" value="Login"><br><br>
+            <input type="submit" value="Forget my password">
+        </form>
+        <br><br><br>
+        <form action="signup">
+            <p><strong>Sign Up</strong></p>
+            <input type="text" id="username" placeholder="Username" required>
+            <lable for="username">Please enter your username:</lable>
+            <br><br>
+            <input type="password" id="password" placeholder="Your password" required>
+            <lable for="password">Please enter your password:</lable>
+            <br><br>
+            <input type="password" id="password" placeholder="Your password" required>
+            <lable for="password">Please enter your password again:</lable>
+            <br><br>
+            <input type="email" id="email" pattern="@gmail.com" placeholder="*******@gmail.com" required>
+            <lable for="email">Please enter your email:</lable>
+            <br><br>
+            <p><strong>What is your gender:</strong></p>
+            <input type="radio" name="male" value="male" id="option-1">
+            <lable for="option-1">male</lable>
+            <input type="radio" name="female" value="female" id="option-2">
+            <lable for="option-2">female</lable>
+            <input type="radio" name="other" value="other" id="option-3">
+            <lable for="option-3">other</lable>
+            <br><br>
+            <input type="date" id="date" name="birth" value="2022/08/30" min="1900/01/01" max="2022/08/30" required>
+            <lable for="birth">Please enter your birthday:</lable>
+            <br><br>
+            <input type="submit" value="Sign Up"><br><br>
+
+
+        </form>
+
 </body>
+
 </html>
